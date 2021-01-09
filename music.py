@@ -33,10 +33,10 @@ def download_mp4(url_video,f):
         yt = YouTube(url_video)
         track = yt.streams.filter(only_audio=True)
         track[0].download('tracce_mp4')
-        strang = url_video[:-1] + d + "ENGAGED"
+        strang = url_video[:-1] + d + "COMPLETE"
         print(strang, file = f)
     except:
-        strang = url_video[0:-1] + d + "NOT ENGAGED"
+        strang = url_video[0:-1] + d + "ERROR"
         print(strang, file = f)
         print("url [{url_}] not valid".format(url_  = url_video[:-1]))
 
