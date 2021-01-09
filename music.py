@@ -6,8 +6,8 @@ import shutil
 import sys
 
 
-video_path = "C:\\Users\\utente\\Desktop\\edoardo\\Python 3.7\\programmi_1.0\\tracce_mp4"
-audio_path = "C:\\Users\\utente\\Desktop\\edoardo\\Python 3.7\\programmi_1.0\\tracce_mp3"
+video_path = "tmp//video_dir"
+audio_path = "tmp//audio_dir"
 file_name = sys.argv[1]
 if file_name not in os.listdir():
     print("ERROR: file does not exist - program crash")
