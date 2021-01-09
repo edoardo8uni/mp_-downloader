@@ -9,6 +9,7 @@ now personalize the script changing audio_path and video_path that refears to au
 the script will do the rest :)
 
 the program will change file.txt adding for each line a response value (CoOMPLETE /ERROR)
+systax : python music.py file.txt
 
     
   
