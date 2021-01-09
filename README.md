@@ -7,6 +7,9 @@ instruction:
   
 now personalize the script changing audio_path and video_path that refears to audio_file folder and video_file folder
 the script will do the rest :)
+
+the program will change file.txt adding for each line a response value (CoOMPLETE /ERROR)
+
     
   
 
